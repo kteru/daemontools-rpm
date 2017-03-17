@@ -2,6 +2,7 @@
 %define _ver	0.76
 %define _dist	%(sh /usr/lib/rpm/redhat/dist.sh)
 %define _rel	1%{?_dist}
+%global debug_package %{nil}
 
 
 Name:		%{_name}
